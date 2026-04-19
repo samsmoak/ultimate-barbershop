@@ -10,7 +10,7 @@ export function ServicesHero() {
     <section className="relative isolate flex h-[70svh] min-h-[480px] w-full items-end overflow-hidden bg-[#0a0a0a]">
       <Image
         src="/images/cuts/cut-03.jpg"
-        alt="Straight razor on dark marble surface"
+        alt="Portrait of a sharp-dressed client after a clean fade and beard sculpt"
         fill
         priority
         sizes="100vw"

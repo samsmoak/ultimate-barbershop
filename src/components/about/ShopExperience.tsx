@@ -5,7 +5,7 @@ import { Container } from "@/components/shared/Container";
 import { SectionLabel } from "@/components/shared/SectionLabel";
 
 const SHOTS = [
-  { src: "/images/cuts/cut-03.jpg", alt: "Tools laid out on a dark counter" },
+  { src: "/images/cuts/cut-03.jpg", alt: "Portrait of a client after a clean fade and sculpted beard" },
   { src: "/images/cuts/cut-05.jpg", alt: "Barber chair in warm light" },
   { src: "/images/scene/hero.jpg", alt: "Leather and brass detail" },
   { src: "/images/scene/interior.jpg", alt: "Barber at work, side profile" },

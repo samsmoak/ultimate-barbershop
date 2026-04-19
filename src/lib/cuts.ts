@@ -5,10 +5,10 @@ export const CUTS: Cut[] = [
   {
     id: "cut-01",
     src: "/images/cuts/cut-01.jpg",
-    alt: "Sharp skin fade on a client looking straight into the camera",
+    alt: "Distinguished client in the chair getting his hair combed out by the barber",
     category: "fades",
     barberId: "john-h",
-    caption: "Skin Fade · Textured Top",
+    caption: "Elder Statesman · Chairside Detail",
     size: "large",
   },
   {
@@ -23,10 +23,10 @@ export const CUTS: Cut[] = [
   {
     id: "cut-03",
     src: "/images/cuts/cut-03.jpg",
-    alt: "Full beard shape and haircut combination",
+    alt: "Portrait of a sharp-dressed client with a clean fade and sculpted goatee",
     category: "beards",
     barberId: "devon-m",
-    caption: "Full Beard · Lineup Finish",
+    caption: "Tapered Fade · Goatee Sculpt",
     size: "medium",
   },
   {
@@ -50,7 +50,7 @@ export const CUTS: Cut[] = [
   {
     id: "cut-06",
     src: "/images/cuts/cut-06.jpg",
-    alt: "Kid getting a fresh fade in the chair",
+    alt: "Young client getting a clean fade with clippers in the barbershop chair",
     category: "kids",
     barberId: "carlos",
     caption: "Kids Fade · First Grade Ready",
@@ -59,10 +59,10 @@ export const CUTS: Cut[] = [
   {
     id: "cut-07",
     src: "/images/cuts/cut-07.jpg",
-    alt: "Barber executing a clean lineup with clippers",
+    alt: "Barber concentrating with clippers in hand mid-cut with his client",
     category: "lineups",
     barberId: "devon-m",
-    caption: "Lineup In Progress",
+    caption: "Clipper Work · In The Chair",
     size: "large",
   },
   {
@@ -77,10 +77,10 @@ export const CUTS: Cut[] = [
   {
     id: "cut-09",
     src: "/images/cuts/cut-09.jpg",
-    alt: "Textured curly cut with faded sides",
-    category: "fades",
+    alt: "Client smiling in warm studio light showing off long well-kept locs",
+    category: "color",
     barberId: "andre-w",
-    caption: "Curl Sponge · Bald Fade",
+    caption: "Locs · Signature Length",
     size: "large",
   },
   {
@@ -95,10 +95,10 @@ export const CUTS: Cut[] = [
   {
     id: "cut-11",
     src: "/images/cuts/cut-11.jpg",
-    alt: "Young client after a fresh haircut",
+    alt: "Young client relaxing in the barber chair as the neck strip is placed",
     category: "kids",
     barberId: "carlos",
-    caption: "Kids Cut · All Smiles",
+    caption: "Kids Cut · In Good Hands",
     size: "medium",
   },
   {
@@ -113,10 +113,10 @@ export const CUTS: Cut[] = [
   {
     id: "cut-13",
     src: "/images/cuts/cut-13.jpg",
-    alt: "Locs pulled back after a maintenance appointment",
+    alt: "Editorial black and white portrait of a client with short locs and round glasses",
     category: "color",
     barberId: "andre-w",
-    caption: "Locs · Retwist & Treatment",
+    caption: "Short Locs · Editorial",
     size: "medium",
   },
   {
@@ -140,10 +140,10 @@ export const CUTS: Cut[] = [
   {
     id: "cut-16",
     src: "/images/cuts/cut-16.jpg",
-    alt: "Dramatic backlit portrait of a fresh haircut",
+    alt: "Moody editorial portrait of a client smiling with his hand resting on his fresh cut",
     category: "fades",
     barberId: "marcus-l",
-    caption: "Editorial · Fresh Cut",
+    caption: "Fresh Cut · In The Mood",
     size: "medium",
   },
 ];
