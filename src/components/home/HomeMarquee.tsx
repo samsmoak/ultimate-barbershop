@@ -13,7 +13,7 @@ const row1 = [
 const row2 = [
   "Walk-Ins Welcome",
   "LGBTQ+ Friendly",
-  "4.4★ · 492 Reviews",
+  "4.4★ · 136 Reviews",
   "Open 6 Days",
 ];
 

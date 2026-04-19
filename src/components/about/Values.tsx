@@ -19,7 +19,7 @@ const VALUES = [
   },
   {
     title: "Excellence",
-    body: "4.4★ across 492 reviews isn't the ceiling — it's the floor we built from.",
+    body: "4.4★ across 136 reviews isn't the ceiling — it's the floor we built from.",
   },
 ];
 

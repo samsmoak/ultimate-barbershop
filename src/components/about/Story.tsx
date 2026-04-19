@@ -29,9 +29,9 @@ export function Story() {
             </AnimatedHeading>
             <div className="mt-8 space-y-6 font-serif text-lg leading-relaxed text-white/75">
               <p>
-                The Ultimate Barber started with a simple idea: a shop where
-                every man&mdash;every person&mdash;could walk in and know the
-                hands on the clippers actually cared. No rushed fades. No
+                Ultimate Styles Barbershop started with a simple idea: a shop
+                where every man&mdash;every person&mdash;could walk in and know
+                the hands on the clippers actually cared. No rushed fades. No
                 assumed styles. No door-to-door turnover.
               </p>
               <p>

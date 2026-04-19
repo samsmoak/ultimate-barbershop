@@ -20,7 +20,7 @@ export function ShopExperience() {
           <div>
             <SectionLabel>INSIDE THE SHOP</SectionLabel>
             <h2 className="mt-6 max-w-3xl font-display text-[clamp(2.25rem,5vw,3.75rem)] leading-[1.05] text-white">
-              Step inside The Ultimate Barber.
+              Step inside Ultimate Styles Barbershop.
             </h2>
           </div>
           <p className="max-w-sm font-serif text-base italic text-white/60">

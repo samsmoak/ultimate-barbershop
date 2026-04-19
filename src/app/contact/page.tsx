@@ -9,7 +9,7 @@ import { AnimatedHeading } from "@/components/shared/AnimatedHeading";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Find The Ultimate Barber — 2712 Richmond Hwy, Alexandria, VA. Call (571) 483-0032 or send us a message.",
+    "Find Ultimate Styles Barbershop — 1308 Mt Vernon Ave, Alexandria, VA. Call (703) 549-8820 or send us a message.",
 };
 
 export default function ContactPage() {
@@ -29,7 +29,7 @@ export default function ContactPage() {
             Find Us.
           </AnimatedHeading>
           <p className="mt-6 max-w-xl font-serif text-xl italic text-white/60">
-            Right on Richmond Highway. Open six days a week. The coffee is on.
+            Right on Mt Vernon Ave. Open six days a week. The coffee is on.
           </p>
         </Container>
       </section>

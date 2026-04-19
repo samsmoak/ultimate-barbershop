@@ -12,9 +12,9 @@ export function Footer() {
           <Link
             href="/"
             className="font-label text-sm uppercase tracking-[0.28em] text-white"
-            aria-label="The Ultimate Barber — Home"
+            aria-label="Ultimate Styles Barbershop — Home"
           >
-            THE ULTIMATE BARBER
+            ULTIMATE STYLES BARBERSHOP
             <span className="text-[#c6973f]">.</span>
           </Link>
           <p className="mt-3 font-serif text-xl italic text-[#c6973f]">
@@ -72,9 +72,9 @@ export function Footer() {
               HOURS
             </div>
             <p className="mt-3 text-white/80">
-              Mon–Fri &nbsp; 8:00a – 7:00p
+              Mon–Fri &nbsp; 10:00a – 7:00p
               <br />
-              Saturday &nbsp; 8:00a – 6:00p
+              Saturday &nbsp; 8:00a – 7:00p
               <br />
               Sunday &nbsp; Closed
             </p>
@@ -119,7 +119,7 @@ export function Footer() {
         </div>
 
         <p className="mt-10 text-center text-xs text-white/40">
-          © 2025 The Ultimate Barber · Alexandria, VA · All Rights Reserved.
+          © 2026 Ultimate Styles Barbershop · Alexandria, VA · All Rights Reserved.
         </p>
       </Container>
     </footer>

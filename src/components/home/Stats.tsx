@@ -7,7 +7,7 @@ export function Stats() {
       <Container>
         <div className="grid grid-cols-2 gap-y-12 sm:gap-y-16 lg:grid-cols-4">
           <div className="relative px-4 sm:px-6 lg:pr-8">
-            <StatCounter value={492} suffix="+" label="Happy Clients" />
+            <StatCounter value={136} suffix="+" label="Happy Clients" />
             <GoldDivider hide="first" />
           </div>
           <div className="relative px-4 sm:px-6 lg:px-8">

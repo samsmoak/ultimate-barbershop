@@ -323,11 +323,11 @@ export function BookingFlow() {
           <ul className="mt-4 space-y-1.5 text-sm text-white/70">
             <li className="flex justify-between">
               <span>Mon – Fri</span>
-              <span className="tabular-nums text-white">8:00a – 7:00p</span>
+              <span className="tabular-nums text-white">10:00a – 7:00p</span>
             </li>
             <li className="flex justify-between">
               <span>Saturday</span>
-              <span className="tabular-nums text-white">8:00a – 6:00p</span>
+              <span className="tabular-nums text-white">8:00a – 7:00p</span>
             </li>
             <li className="flex justify-between">
               <span>Sunday</span>

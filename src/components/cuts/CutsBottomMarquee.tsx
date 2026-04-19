@@ -8,9 +8,9 @@ export function CutsBottomMarquee() {
       <MarqueeStrip
         items={[
           "Book Your Look →",
-          "(571) 483-0032 →",
+          "(703) 549-8820 →",
           "Walk-Ins Welcome →",
-          "The Ultimate Barber →",
+          "Ultimate Styles Barbershop →",
         ]}
         separator="·"
         tone="gold"
