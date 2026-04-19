@@ -88,16 +88,19 @@ body {
   background: var(--color-gold);
 }
 
-/* Lenis smooth-scroll: disable native scroll smoothing inside Lenis-managed root */
-html.lenis {
-  height: auto;
-}
-html.lenis,
-html.lenis body {
-  overflow: clip;
-}
-html.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
+/* Lenis smooth-scroll: only applies on fine-pointer devices where Lenis mounts.
+   On coarse-pointer (touch) devices Lenis is skipped so native scroll stays alive. */
+@media (pointer: fine) {
+  html.lenis {
+    height: auto;
+  }
+  html.lenis,
+  html.lenis body {
+    overflow: clip;
+  }
+  html.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
 }
 
 /* Links: remove default underline by default, we style per-element */
