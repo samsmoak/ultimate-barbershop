@@ -84,8 +84,9 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${playfair.variable} ${cormorant.variable} ${grotesk.variable} ${inter.variable} ${bebas.variable}`}
+      suppressHydrationWarning
     >
-      <body>
+      <body suppressHydrationWarning>
         <LenisProvider>
           <ScrollProgress />
           <GrainOverlay />
