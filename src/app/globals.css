@@ -1,26 +1,239 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-base: #0a0a0a;
+  --color-surface: #111111;
+  --color-elevated: #1a1a1a;
+  --color-border: #222222;
+  --color-gold: #c6973f;
+  --color-gold-light: #e8c97a;
+  --color-ink: #ffffff;
+  --color-muted: #777777;
+  --color-gold-glow: rgba(198, 151, 63, 0.25);
+
+  --color-background: #0a0a0a;
+  --color-foreground: #ffffff;
+
+  --font-display: var(--font-playfair);
+  --font-serif: var(--font-cormorant);
+  --font-grotesk: var(--font-grotesk);
+  --font-sans: var(--font-inter);
+  --font-label: var(--font-bebas);
+
+  --shadow-gold: 0 0 40px rgba(198, 151, 63, 0.25);
+  --shadow-gold-lg: 0 12px 60px rgba(198, 151, 63, 0.35);
+
+  --ease-luxe: cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  background: var(--color-base);
+  color: var(--color-ink);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-y: none;
+}
+
+html {
+  scroll-behavior: auto;
+  color-scheme: dark;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100dvh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: #0a0a0a;
+}
+
+/* Hide default cursor when fine pointer (custom cursor takes over) */
+@media (hover: hover) and (pointer: fine) {
+  html,
+  body,
+  a,
+  button,
+  [role="button"],
+  input,
+  textarea,
+  select {
+    cursor: none;
+  }
+}
+
+/* Thin, gold scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
+
+/* Lenis smooth-scroll: disable native scroll smoothing inside Lenis-managed root */
+html.lenis {
+  height: auto;
+}
+html.lenis,
+html.lenis body {
+  overflow: clip;
+}
+html.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+/* Links: remove default underline by default, we style per-element */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Focus-visible gold ring */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+button {
+  font-family: inherit;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Fonts helper classes */
+.font-display {
+  font-family: var(--font-display), "Playfair Display", serif;
+  font-feature-settings: "liga", "kern";
+  letter-spacing: -0.02em;
+}
+.font-serif {
+  font-family: var(--font-serif), "Cormorant Garamond", serif;
+}
+.font-grotesk {
+  font-family: var(--font-grotesk), "Space Grotesk", sans-serif;
+  letter-spacing: 0.02em;
+}
+.font-sans {
+  font-family: var(--font-sans), Inter, system-ui, sans-serif;
+}
+.font-label {
+  font-family: var(--font-label), "Bebas Neue", Impact, sans-serif;
+  letter-spacing: 0.08em;
+}
+
+/* Gold underline link */
+.link-gold {
+  position: relative;
+  display: inline-block;
+  color: var(--color-gold);
+}
+.link-gold::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s var(--ease-luxe);
+}
+.link-gold:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+/* Gold button glow pulse */
+@keyframes gold-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 rgba(198, 151, 63, 0);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(198, 151, 63, 0.6);
+  }
+}
+.gold-pulse {
+  animation: gold-pulse 3s ease-in-out infinite;
+}
+
+/* Scissor sweep animation */
+@keyframes scissor-sweep {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+/* Barber pole stripes background helper */
+.diag-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(0, 0, 0, 0.08) 0,
+    rgba(0, 0, 0, 0.08) 12px,
+    transparent 12px,
+    transparent 28px
+  );
+}
+
+/* Grain overlay (global) */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  background-image: url("/grain.svg");
+  background-size: 180px 180px;
+}
+
+/* Reduced motion fallbacks */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
 }
