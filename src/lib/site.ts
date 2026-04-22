@@ -1,15 +1,15 @@
 export const SITE = {
-  name: "Ultimate Styles Barbershop",
-  shortName: "Ultimate Styles",
+  name: "The Ultimate Barber",
+  shortName: "Ultimate Barber",
   tagline: "Where Precision Meets Prestige.",
   phone: "(703) 549-8820",
   phoneHref: "tel:+17035498820",
-  email: "hello@ultimatestylesbarbershop.com",
+  email: "hello@theultimatebarber.com",
   address: {
     line1: "1308 Mt Vernon Ave",
     line2: "Alexandria, VA 22301",
     mapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Ultimate+Styles+Barbershop+1308+Mt+Vernon+Ave+Alexandria+VA+22301",
+      "https://www.google.com/maps/search/?api=1&query=The+Ultimate+Barber+1308+Mt+Vernon+Ave+Alexandria+VA+22301",
     embed:
       "https://www.google.com/maps?q=1308+Mt+Vernon+Ave,+Alexandria,+VA+22301&output=embed",
   },
@@ -28,10 +28,10 @@ export const SITE = {
   ],
   hoursSummary: "Mon–Fri 10a–7p · Sat 8a–7p · Sun Closed",
   socials: {
-    instagram: "https://instagram.com/ultimatestylesbarbershop",
-    facebook: "https://facebook.com/ultimatestylesbarbershop",
+    instagram: "https://instagram.com/theultimatebarber",
+    facebook: "https://facebook.com/theultimatebarber",
     google:
-      "https://www.google.com/search?q=Ultimate+Styles+Barbershop+Alexandria+VA",
+      "https://www.google.com/search?q=The+Ultimate+Barber+Alexandria+VA",
   },
   nav: [
     { href: "/", label: "Home" },

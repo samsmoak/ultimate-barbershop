@@ -45,11 +45,11 @@ const bebas = Bebas_Neue({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ultimate Styles Barbershop · Alexandria, VA",
-    template: "%s · Ultimate Styles Barbershop",
+    default: "The Ultimate Barber · Alexandria, VA",
+    template: "%s · The Ultimate Barber",
   },
   description:
-    "Ultimate Styles Barbershop — Alexandria's premier barbershop on Mt Vernon Ave. Precision fades, beard sculpting, hot towel shaves, and kids cuts. Where Precision Meets Prestige.",
+    "The Ultimate Barber — Alexandria's premier barbershop on Mt Vernon Ave. Precision fades, beard sculpting, hot towel shaves, and kids cuts. Where Precision Meets Prestige.",
   keywords: [
     "barbershop Alexandria VA",
     "barber Alexandria",
@@ -58,12 +58,12 @@ export const metadata: Metadata = {
     "hot towel shave",
     "beard trim Alexandria",
     "kids haircut Alexandria",
-    "Ultimate Styles Barbershop",
+    "The Ultimate Barber",
   ],
   openGraph: {
-    title: "Ultimate Styles Barbershop · Alexandria, VA",
+    title: "The Ultimate Barber · Alexandria, VA",
     description: "Where Precision Meets Prestige. 136 Google reviews · 4.4★.",
-    siteName: "Ultimate Styles Barbershop",
+    siteName: "The Ultimate Barber",
     type: "website",
   },
   robots: { index: true, follow: true },

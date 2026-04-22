@@ -46,9 +46,9 @@ export function Navbar() {
           <Link
             href="/"
             className="font-label text-[15px] uppercase leading-none tracking-[0.22em] text-white"
-            aria-label="Ultimate Styles Barbershop — Home"
+            aria-label="The Ultimate Barber — Home"
           >
-            ULTIMATE STYLES BARBERSHOP
+            THE ULTIMATE BARBER
             <span className="text-[#c6973f]">.</span>
           </Link>
 

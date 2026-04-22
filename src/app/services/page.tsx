@@ -6,7 +6,7 @@ import { CTABanner } from "@/components/shared/CTABanner";
 export const metadata: Metadata = {
   title: "Services & Pricing",
   description:
-    "Haircuts, beard services, specialty work, and kids cuts. Every service at Ultimate Styles Barbershop, priced clearly.",
+    "Haircuts, beard services, specialty work, and kids cuts. Every service at The Ultimate Barber, priced clearly.",
 };
 
 export default function ServicesPage() {

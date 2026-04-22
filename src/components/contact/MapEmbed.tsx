@@ -6,7 +6,7 @@ export function MapEmbed() {
     <section className="relative w-full bg-[#0a0a0a]">
       <div className="relative h-[480px] w-full overflow-hidden border-y border-[#c6973f]/40">
         <iframe
-          title="Map to Ultimate Styles Barbershop"
+          title="Map to The Ultimate Barber"
           src={SITE.address.embed}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

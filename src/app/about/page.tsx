@@ -9,7 +9,7 @@ import { CTABanner } from "@/components/shared/CTABanner";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Ultimate Styles Barbershop — our story, the team, the values we cut by, and the room we built on Mt Vernon Ave in Alexandria, VA.",
+    "The Ultimate Barber — our story, the team, the values we cut by, and the room we built on Mt Vernon Ave in Alexandria, VA.",
 };
 
 export default function AboutPage() {

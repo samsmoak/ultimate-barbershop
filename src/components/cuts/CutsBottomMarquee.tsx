@@ -10,7 +10,7 @@ export function CutsBottomMarquee() {
           "Book Your Look →",
           "(703) 549-8820 →",
           "Walk-Ins Welcome →",
-          "Ultimate Styles Barbershop →",
+          "The Ultimate Barber →",
         ]}
         separator="·"
         tone="gold"

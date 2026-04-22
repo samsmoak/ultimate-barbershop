@@ -9,7 +9,7 @@ import { AnimatedHeading } from "@/components/shared/AnimatedHeading";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Find Ultimate Styles Barbershop — 1308 Mt Vernon Ave, Alexandria, VA. Call (703) 549-8820 or send us a message.",
+    "Find The Ultimate Barber — 1308 Mt Vernon Ave, Alexandria, VA. Call (703) 549-8820 or send us a message.",
 };
 
 export default function ContactPage() {

@@ -10,7 +10,7 @@ export function AboutHero() {
     <section className="relative isolate flex h-[78svh] min-h-[520px] w-full items-end overflow-hidden bg-[#0a0a0a]">
       <Image
         src="/images/cuts/cut-05.jpg"
-        alt="Interior of Ultimate Styles Barbershop — warm, atmospheric"
+        alt="Interior of The Ultimate Barber — warm, atmospheric"
         fill
         priority
         sizes="100vw"

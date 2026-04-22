@@ -7,8 +7,8 @@ import { HeroHelixClient } from "@/components/three/HeroHelixClient";
 import { LUXE_EASE } from "@/lib/motion";
 import { SITE } from "@/lib/site";
 
-const line1 = ["Ultimate", "Styles"];
-const line2 = "Barbershop.";
+const line1 = ["The", "Ultimate"];
+const line2 = "Barber.";
 
 export function Hero() {
   return (

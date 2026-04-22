@@ -7,7 +7,7 @@ import { SectionLabel } from "@/components/shared/SectionLabel";
 export const metadata: Metadata = {
   title: "Book an Appointment",
   description:
-    "Book your next cut at Ultimate Styles Barbershop. Five easy steps. Walk-ins also welcome.",
+    "Book your next cut at The Ultimate Barber. Five easy steps. Walk-ins also welcome.",
 };
 
 export default function BookPage() {

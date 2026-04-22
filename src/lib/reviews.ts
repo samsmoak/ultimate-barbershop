@@ -6,7 +6,7 @@ export const REVIEWS: Review[] = [
     name: "Mr. John",
     stars: 5,
     when: "2 months ago",
-    body: "Absolutely amazing!! I just moved to VA Alexandria area and was looking for a barber after going to one that didn't quite listen to my haircut directions. I looked up Ultimate Styles Barbershop and booked an appointment with Kareem and he did a great job, listened carefully and nailed exactly what I wanted.",
+    body: "Absolutely amazing!! I just moved to VA Alexandria area and was looking for a barber after going to one that didn't quite listen to my haircut directions. I looked up The Ultimate Barber and booked an appointment with Kareem and he did a great job, listened carefully and nailed exactly what I wanted.",
   },
   {
     id: "r-angel-abston",
@@ -51,7 +51,7 @@ export const REVIEWS: Review[] = [
     name: "Jamal P.",
     stars: 5,
     when: "1 month ago",
-    body: "I drive in from DC. That should tell you everything. Nobody in the District gives a mid-fade like the guys at Ultimate Styles. Shop is clean, music is right, and they move you through fast without rushing the work.",
+    body: "I drive in from DC. That should tell you everything. Nobody in the District gives a mid-fade like the guys at The Ultimate Barber. Shop is clean, music is right, and they move you through fast without rushing the work.",
   },
   {
     id: "r-chris-w",

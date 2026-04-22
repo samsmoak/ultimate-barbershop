@@ -12,9 +12,9 @@ export function Footer() {
           <Link
             href="/"
             className="font-label text-sm uppercase tracking-[0.28em] text-white"
-            aria-label="Ultimate Styles Barbershop — Home"
+            aria-label="The Ultimate Barber — Home"
           >
-            ULTIMATE STYLES BARBERSHOP
+            THE ULTIMATE BARBER
             <span className="text-[#c6973f]">.</span>
           </Link>
           <p className="mt-3 font-serif text-xl italic text-[#c6973f]">
@@ -119,7 +119,7 @@ export function Footer() {
         </div>
 
         <p className="mt-10 text-center text-xs text-white/40">
-          © 2026 Ultimate Styles Barbershop · Alexandria, VA · All Rights Reserved.
+          © 2026 The Ultimate Barber · Alexandria, VA · All Rights Reserved.
         </p>
       </Container>
     </footer>
